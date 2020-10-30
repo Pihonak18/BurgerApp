@@ -1,5 +1,4 @@
 # BurgerApp
-eatTheBurger
 This project we had to use the MVC as well as handlebars format to become used to having calls from different files for a more organized code.
 
 MVC is short for model view controller, this is commonly used for developing user interfaces that divides the related program logic into thrww interconnect elements.
