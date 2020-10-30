@@ -1,0 +1,70 @@
+
+
+    <div class="grid-container fluid">
+      <div class="grid-x grid-margin-x">  
+        <div class="cell small-12">
+          <div class="header-image">
+            <img src="/assets/img/burger.jpg" width="400" alt="Burger">
+          </div>
+
+            <header>
+      <h1>Eat-Da-Burger!</h1>
+    </header>
+        </div>
+
+
+        <div class="cell medium-6 small-12"> 
+            <table>
+              <abody>
+                {{#each burgers}}
+                    {{#unless devoured}}
+                      <tr>
+                        <td>{{this.id}}</td>
+                        <td>{{this.burger_name}}</td>
+                        <td><button type="button" class="alert button devour-it" data-id="{{this.id}}">Devour It!</button></td>
+                      </tr>
+                    {{/unless}}
+                  {{/each}}
+              </abody>
+            </table>
+          
+        </div>
+        <div class="cell medium-6 small-12">
+            <table>
+              <abody>
+              {{#each burgers}}
+                {{#if devoured}}
+                  <tr>
+                    <td>{{this.id}}</td>
+                    <td>{{this.burger_name}}</td>
+                    <td><button type="button" class="alert button delete" data-id="{{this.id}}">Delete</button></td>
+                  </tr>
+                {{/if}}
+              {{/each}}
+              </abody>
+            </table>
+         
+        </div>
+      </div>
+    </div>
+   
+
+    <div class="grid-container fluid">
+        <div class="grid-x grid-margin-x">
+          <div class="form-container">
+              <div class="cell small-5">
+                <form class="create-form">
+                   
+                    <div class="form-group">
+                      <div class="input-group">
+                        <input class="input-group-field" id="burger_name" name="burger_name" type="text">
+                        <div class="input-group-button">
+                          <input type="submit" style="background-color: brown;" value="Submit">
+                        </div>
+                      </div>
+                    </div>
+                </form>
+              </div>
+          </div>
+        </div>
+    </div>

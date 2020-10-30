@@ -1,0 +1,30 @@
+{
+  "name": "burger",
+  "version": "1.0.0",
+  "description": "restaurant app that lets users input the names of burgers they'd like to eat.",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/nicholas-romano/Burger.git"
+  },
+  "keywords": [
+    "node",
+    "express",
+    "handlebars",
+    "mysql"
+  ],
+  "author": "mathew",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/nicholas-romano/Burger/issues"
+  },
+  "homepage": "https://github.com/nicholas-romano/Burger#readme",
+  "dependencies": {
+    "express": "^4.17.1",
+    "express-handlebars": "^4.0.6",
+    "mysql": "^2.18.1"
+  }
+}

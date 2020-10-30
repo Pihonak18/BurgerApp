@@ -1,0 +1,57 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: #e9bf6a;
+}
+
+
+
+.header-image {
+    margin: 0px auto;
+    width: 401px;
+    border-radius: 11px;
+}
+
+h1 {
+    text-align: center;
+    color: #c74b38;
+    margin-bottom: 6px;
+}
+
+.column-container {
+    background-color: #fa9530;
+    border-radius: 11px;
+    padding: 11px;
+    margin-bottom: 21px;
+}
+
+
+
+.form-container {
+    margin: 0 auto;
+    padding: 11px;
+    border-radius: 11px;
+    margin-top: 21px;
+}
+
+.create-form {
+    background-color: #f7c35d;
+}
+
+.create-form h3 {
+    text-align: center;
+    color: #9c9897;
+    border-radius: 11px 11px 0 0;
+}
+
+table abody tr:nth-child(even) {
+    background-color: #fcf689;
+}
+
+table abody tr:nth-child(odd) {
+    background-color: #fcf7a7;
+}
+
+.input-group-field {
+    background-color: #fffba9;
+    
+}
